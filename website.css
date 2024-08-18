@@ -1,0 +1,162 @@
+a{
+    text-decoration:none;
+}
+#first-half{
+    background-color: aliceblue;
+}
+#second-half{
+    background-color:azure;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+}
+button{
+    height: 40px;
+    width: 100px;
+    border-radius:9%;
+    background-color: rgb(80, 185, 255);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#Sign-out{
+         height: 40px;
+         width: 80px;
+         border-radius: 8%;
+         background-color: rgb(80, 185, 255);
+         font-size: 15px;
+         font-weight: bold;
+         cursor: pointer;
+         margin-left: 2rem;
+         margin-top: 1rem;
+         margin-right: 0px;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* justify-content:space-evenly; */
+}
+#content h1{
+    font-size: 3.75rem;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 11rem;
+}
+p{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    
+    max-width:800px;
+}
+/* #buy{
+    height: 40px;
+    width: 80px;
+    border-radius: 15%;
+    background-color: rgb(34, 219, 37);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+} */
+#phones{
+    display:flex;
+    
+    align-items: flex-end;
+    
+    justify-content:center;
+    margin: 30px;
+}
+#phones img{
+    max-width: 100%;
+    height:auto;
+}
+.text{
+    text-align: center;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.searchbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 2rem;
+}
+#Search{
+    padding:0.99rem;
+    background-color:bisque;
+    border-radius: 10px;
+    outline: none;
+    height: 13px;
+    width: 30rem;
+    font-size: 15px;
+    border: none;
+    
+}
+ #show-detail{
+    height: 40px;
+    width: 120px;
+    border-radius: 7%;
+    background-color: rgb(93, 158, 244);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+} 
+#loading{
+    text-align: center;
+}
+#load{
+    mask-image: url('download.svg');
+    display: inline-block;
+    aspect-ratio: 1 / 1;
+    mask-size: 100%;
+    background-color: currentColor;
+    mask-position: center;
+    width: 2.5rem;
+    mask-repeat: no-repeat;
+} 
+
+h1{
+    text-align: center;
+    margin: 2rem;
+    font-weight: 300;
+    height: 10px;
+
+}
+#show-all{
+    height: 40px;
+    width: 80px;
+    border-radius: 9%;
+    background-color: rgb(101, 184, 235);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#display{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    padding: 2rem;
+}
+.card{
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+}
+.hidden{
+    display: none;
+}
+dialog{
+    display: none;
+}
+#detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
